@@ -1,15 +1,117 @@
 * {box-sizing: border-box;}
 img {width: 100%;}
 
+
 .sec1 {
-    background: url(../img/desktop-background.jpg);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background: url(../img/desktop-background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+.sec1 h1 {
+  font-family: Crimson;
+  font-size: 90px;
+  color: black;
+}
+
+.sec1 h2 {
+  font-family: Crimson;
+  color: black;
+}
+
+.sec1 img {
+  margin-top: 200px;
+  opacity: 0.89;
+  border-radius: 100%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.sec1Contact ul {
+  list-style: none;
+  display: inline-block;
+  padding-right: 55px;
+}
+
+.sec1Contact ul li {
+  font-size: 40px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.sec1Contact ul li a {
+  color: #808080;
+}
+
+.resume-button {
+  background: #808080;
+  color: white;
+  font-family: Crimson;
+}
+
+.resume-button:hover {
+  background: #262626;
+  color: #808080;
+}
+
 .sec2 {
+  height: 100%;
+  background: #262626;
+  color: white;
+}
+
+.sec2 h1 {
+  font-size: 90px;
+  font-family: Crimson;
+}
+
+.sec2 ul {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+.sec2 ul li {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.sec2 ul li i {
+  font-size: 120px;
+}
+
+.sec3 {
+  background: #808080;
+  height: 100%;
+  padding: 20px;
+}
+
+.sec3 h1 {
+  color: #262626;
+  font-family: Crimson;
+  font-size: 90px;
+}
+
+.sec3 img {
+  padding: 5px;
+  width: 100%;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .sec1 h1 {
+    font-size: 60px;
+  }
+  .sec3 img {
+    height: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .sec1 {
     height: 100%;
-    background: #E1DDC6;
-    color: #244345;
+  }
 }
