@@ -1,0 +1,15 @@
+* {box-sizing: border-box;}
+img {width: 100%;}
+
+.sec1 {
+    background: url(../img/desktop-background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec2 {
+    height: 100%;
+    background: #E1DDC6;
+    color: #244345;
+}
